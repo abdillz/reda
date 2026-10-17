@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0f766e">
+<title>REDA – Alat Kader (Prototipe)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="bar">
+    <div class="bar-title">REDA <span>| Alat Kader Dusun</span></div>
+    <div class="bar-sub" id="dusunLabel">Prototipe – data contoh, bukan data nyata</div>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="tabs" aria-label="Menu utama">
+    <button data-tab="pemicu" class="active"><b>1</b>Pemicu</button>
+    <button data-tab="pagi"><b>2</b>Pagi</button>
+    <button data-tab="pantau"><b>3</b>Pantauan</button>
+    <button data-tab="atur"><b>⋯</b>Atur</button>
+  </nav>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
